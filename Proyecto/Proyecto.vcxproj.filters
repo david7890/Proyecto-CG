@@ -15,7 +15,44 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <None Include="Shaders\lamp.frag">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\lamp.vs">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\lighting.frag">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\lighting.vs">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\anim.frag">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\anim.vs">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\anim2.vs">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\anim2.frag">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\modelLoading.frag">
+      <Filter>Archivos de origen</Filter>
+    </None>
+    <None Include="Shaders\modelLoading.vs">
+      <Filter>Archivos de origen</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="315264520_PRACTICA10_GPO08.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

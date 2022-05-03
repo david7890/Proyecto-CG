@@ -94,7 +94,11 @@ int main()
     Shader shader("Shaders/modelLoading.vs", "Shaders/modelLoading.frag");
 
     // Load models
-    Model lamp((char*)"Models/lamps/lamp2.obj");
+    //Model lamp((char*)"Models/lamps/lamp2.obj");
+    //Model tv2((char*)"Models/tv/tv.obj");
+    Model carro((char*)"Models/CarroFred/carroF.obj");
+    Model palm((char*)"Models/Palm/low poly palm tree.obj");
+
     //z near , z far
     glm::mat4 projection = glm::perspective(camera.GetZoom(), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 100.0f);
 
@@ -119,15 +123,18 @@ int main()
         shader.Use();
 
         glm::mat4 view = camera.GetViewMatrix();
+        
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "view"), 1, GL_FALSE, glm::value_ptr(view));
 
         // Draw the loaded model
         glm::mat4 model(1);
         //model = glm::scale(model, glm::vec3(0.01, 0.01, 0.01));
-        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        
         //fish.Draw(shader);
-        lamp.Draw(shader);
+        carro.Draw(shader);
+
+
 
         // Swap the buffers
         glfwSwapBuffers(window);

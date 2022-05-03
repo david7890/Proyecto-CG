@@ -18,6 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\anim.frag" />
+    <None Include="Shaders\anim.vs" />
+    <None Include="Shaders\lamp.frag" />
+    <None Include="Shaders\lamp.vs" />
+    <None Include="Shaders\anim2.frag" />
+    <None Include="Shaders\anim2.vs" />
+    <None Include="Shaders\lighting.frag" />
+    <None Include="Shaders\lighting.vs" />
+    <None Include="Shaders\modelLoading.frag" />
+    <None Include="Shaders\modelLoading.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="315264520_PRACTICA10_GPO08.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -150,9 +168,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
