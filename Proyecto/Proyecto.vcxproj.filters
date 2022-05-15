@@ -52,7 +52,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="315264520_PRACTICA10_GPO08.cpp">
+    <ClCompile Include="Proyecto.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

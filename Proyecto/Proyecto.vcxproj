@@ -34,7 +34,7 @@
     <ClInclude Include="Mesh.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="315264520_PRACTICA10_GPO08.cpp" />
+    <ClCompile Include="Proyecto.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
