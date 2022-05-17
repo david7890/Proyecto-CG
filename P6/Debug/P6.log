@@ -1,0 +1,135 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (P6.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Camera.cpp
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Camera.cpp(21,19): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  DirectionalLight.cpp
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\DirectionalLight.cpp(18,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\DirectionalLight.cpp(19,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\DirectionalLight.cpp(21,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\DirectionalLight.cpp(22,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  Light.cpp
+  Material.cpp
+  Mesh_tn.cpp
+  Model.cpp
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Model.cpp(16,10): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'const std::string'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Model.cpp(16,80): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Model.cpp(16,80): message : los marcadores de posición y sus parámetros esperan 1 argumentos variádicos, pero se proporcionaron 2
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Model.cpp(51,7): warning C4804: '<': uso no seguro del tipo 'bool' en la operación
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Model.cpp(51,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Model.cpp(138,14): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'std::string'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Model.cpp(147,14): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'std::string'
+  ProyectoFinalCGeIHC.cpp
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(15,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(16,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(22,28): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(23,33): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(24,27): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(425,31): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(426,37): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(427,29): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(436,18): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(446,18): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(449,44): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(609,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(611,43): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(624,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(625,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(626,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(628,34): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(633,29): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(634,34): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(641,27): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(642,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(650,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(651,29): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(652,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(659,30): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(660,34): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(668,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(676,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(677,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(678,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(685,29): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(687,52): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(697,27): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(698,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(707,29): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(709,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(718,30): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(720,52): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(730,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(765,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(769,34): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(770,36): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(780,34): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(782,35): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(785,36): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(794,34): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(810,35): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(813,36): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(983,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(987,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(988,37): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(994,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1000,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1007,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1008,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1018,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1019,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1029,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1033,32): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1034,37): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1041,32): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1048,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1049,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1059,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1060,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1070,52): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\ProyectoFinalCGeIHC.cpp(1071,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+  PointLight.cpp
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\PointLight.cpp(28,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\PointLight.cpp(29,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\PointLight.cpp(30,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\PointLight.cpp(32,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\PointLight.cpp(33,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\PointLight.cpp(34,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\PointLight.cpp(35,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  Shader_light.cpp
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(207,75): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(207,26): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(206,91): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(206,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(220,98): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(220,62): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(220,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(219,70): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(219,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(218,88): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Shader_light.cpp(218,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+  Skybox.cpp
+  Sphere.cpp
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Sphere.cpp(39,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Sphere.cpp(43,16): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  SpotLight.cpp
+  Texture.cpp
+  Window.cpp
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(15,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(16,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(22,28): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(23,33): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.h(24,27): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(128,28): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(132,28): warning C4305: '-=': truncamiento de 'double' a 'GLfloat'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(136,27): warning C4305: '-=': truncamiento de 'double' a 'GLfloat'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(140,27): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(144,27): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(148,27): warning C4305: '-=': truncamiento de 'double' a 'GLfloat'
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(223,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(224,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(228,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(229,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(231,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(232,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Generando código...
+C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\P6\Window.cpp(80): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+  P6.vcxproj -> C:\Users\Ana\Desktop\ProyectoBase\ProyectoTeoria\P6\Debug\ProyectoFinalCGeIHC.exe
