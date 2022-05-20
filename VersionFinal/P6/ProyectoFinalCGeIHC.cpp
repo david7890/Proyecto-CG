@@ -44,6 +44,7 @@ void animCar();
 void animClock();
 void caminaPedro();
 void animPedro();
+void animDino();
 
 ////variables para animación
 float movCoche;
@@ -117,6 +118,21 @@ bool animPieDer2 = false;
 bool recop1 = true;
 bool recop2 = false;
 //dinosaur dorrie
+float circx = 0.0;
+float circz = 0.0;
+float phiDino = 0.0;
+float radioD = 10.0;
+float rotCirculo = 0.0;
+float rotAleta = 0.0;
+float rotAletaDer = 360.0;
+float rotCola = 0.0;
+bool animDinoRec = true;
+bool animCola = true;
+bool animCola2 = false;
+bool animaAleta = true;
+bool animaAleta2 = false;
+bool animAletaDer = true;
+bool animAletaDer2 = false;
 
 glm::vec3 posIniCar(14.0, -2.0, 48);
 Window mainWindow;
@@ -194,6 +210,7 @@ Model pataDelDer;
 Model pataDelIzq;
 Model PataTrasDer;
 Model PataTrasIzq;
+Model sea;
 
 //materiales
 Material Material_brillante;
@@ -451,6 +468,8 @@ int main()
 	PieIzq = Model();
 	PieIzq.LoadModel("Models/Pedro/pieIzq.obj");
 	//dinosaur dorrie
+	sea = Model();
+	sea.LoadModel("Models/dorrie/sea.obj");
 	cuerpoD = Model();
 	cuerpoD.LoadModel("Models/dorrie/cuerpo.obj");
 	cola = Model();
@@ -564,6 +583,7 @@ int main()
 		animClock();
 		caminaPedro();
 		animPedro();
+		animDino();
 		//Variables Para controlar las luces
 		contador = mainWindow.apagar();
 		contador2 = mainWindow.apagarLuces();
@@ -1594,7 +1614,6 @@ int main()
 		model = glm::rotate(model, glm::radians(rotbrazo), glm::vec3(1.0f, 0.0f, 0.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		PbrazoDer.RenderModel();
-
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(40, -1.95, 5));
 		model = glm::scale(model, glm::vec3(0.3f, 0.3f, 0.3f));
@@ -1603,6 +1622,59 @@ int main()
 		model = glm::rotate(model, glm::radians(rotbrazo), glm::vec3(1.0f, 0.0f, 0.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		PbrazoIzq.RenderModel();
+		//dinosaurio dorrie
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(75, -1.9, 5));
+		model = glm::scale(model, glm::vec3(0.8f, 0.8f, 0.8f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		sea.RenderModel();
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(75, -0.9, 5));
+		model = glm::translate(model, glm::vec3(circx, 1.0, circz));
+		model = glm::rotate(model, glm::radians(rotCirculo), glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		cuerpoD.RenderModel();
+		//cola
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(75, -0.9, 5));
+		model = glm::translate(model, glm::vec3(circx, 1.0, circz));
+		model = glm::rotate(model, glm::radians(rotCirculo), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rotCola), glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		cola.RenderModel();
+		//aletas
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(75, -0.9, 5));
+		model = glm::translate(model, glm::vec3(circx, 1.0, circz));//mover en circulo
+		model = glm::rotate(model, glm::radians(rotCirculo), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rotAletaDer), glm::vec3(1.0f, 0.0f, 0.0));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		pataDelDer.RenderModel();
+
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(75, -0.9, 5));
+		model = glm::translate(model, glm::vec3(circx, 1.0, circz));//mover en circulo
+		model = glm::rotate(model, glm::radians(rotCirculo), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rotAleta), glm::vec3(1.0f, 0.0f, 0.0));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		pataDelIzq.RenderModel();
+
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(75, -0.9, 5));
+		model = glm::translate(model, glm::vec3(circx, 1.0, circz));//mover en circulo
+		model = glm::rotate(model, glm::radians(rotCirculo), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rotAletaDer), glm::vec3(1.0f, 0.0f, 0.0));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		PataTrasDer.RenderModel();
+
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(75, -0.9, 5));
+		model = glm::translate(model, glm::vec3(circx, 1.0, circz));//mover en circulo
+		model = glm::rotate(model, glm::radians(rotCirculo), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rotAleta), glm::vec3(1.0f, 0.0f, 0.0));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		PataTrasIzq.RenderModel();
+
 		//carro pedro
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(32.8, -1.85, 5));
@@ -1934,14 +2006,14 @@ void animClock() {
 
 void caminaPedro() {
 	if (recop1) {
-		movPedroZ += 0.9f;
+		movPedroZ += 0.2f;
 		if (movPedroZ > 20) {
 			recop1 = false;
 			recop2 = true;
 		}
 	}
 	if (recop2) {
-		movPedroZ -= 0.9f;
+		movPedroZ -= 0.2f;
 		if (movPedroZ < -25) {
 			recop2 = false;
 			recop1 = true;
@@ -1951,8 +2023,8 @@ void caminaPedro() {
 
 void animPedro() {
 	if (animBrazo) {
-		if (rotbrazo < 20.0) {
-			rotbrazo += 0.65;
+		if (rotbrazo < 18.0) {
+			rotbrazo += 0.8;
 		}
 		else {
 			animBrazo = false;
@@ -1961,8 +2033,8 @@ void animPedro() {
 	}
 	else {
 		if (animBrazo2) {
-			if (rotbrazo > -15.0) {
-				rotbrazo -= 0.65;
+			if (rotbrazo > -14.0) {
+				rotbrazo -= 0.8;
 			}
 			else {
 				animBrazo2 = false;
@@ -1973,7 +2045,7 @@ void animPedro() {
 	}
 	if (animPie) {
 		if (rotPie < 20) {
-			rotPie += 0.6;
+			rotPie += 0.75;
 		}
 		else {
 			animPie = false;
@@ -1983,7 +2055,7 @@ void animPedro() {
 	else {
 		if (animPie2) {
 			if (rotPie > -30) {
-				rotPie -= 0.6;
+				rotPie -= 0.75;
 			}
 			else {
 				animPie = true;
@@ -1994,7 +2066,7 @@ void animPedro() {
 
 	if (animPieDer) {
 		if (rotPieDer < 20) {
-			rotPieDer += 0.6;
+			rotPieDer += 0.75;
 		}
 		else {
 			animPieDer = false;
@@ -2004,11 +2076,80 @@ void animPedro() {
 	else {
 		if (animPieDer2) {
 			if (rotPieDer > -30) {
-				rotPieDer -= 0.6;
+				rotPieDer -= 0.75;
 			}
 			else {
 				animPieDer = true;
 				animPieDer2 = false;
+			}
+		}
+	}
+}
+void animDino() {
+	float speed = 0.5;
+	float phi = phiDino + (2 * speed) * glfwGetTime();
+	circx = radioD * cos(phiDino - speed * glfwGetTime());
+	circz = radioD * sin(phiDino - speed * glfwGetTime());
+	//std::cout << rotCirculo << std::endl;
+	rotCirculo = phi;
+	if (animDinoRec) {
+		if (animaAleta) {
+			if (rotAleta < 20.0) {
+				rotAleta += 0.5;
+			}
+			else {
+				animaAleta = false;
+				animaAleta2 = true;
+			}
+		}
+		if (animaAleta2) {
+			if (rotAleta > 0.0) {
+				rotAleta -= 0.5;
+			}
+			else {
+				animaAleta2 = false;
+				animaAleta = true;
+			}
+		}
+
+		if (animAletaDer) {
+			//std::cout << rotAletaDer << std::endl;
+			if (rotAletaDer < 360.0) {
+				rotAletaDer += 0.5;
+			}
+			else {
+				animAletaDer = false;
+				animAletaDer2 = true;
+			}
+		}
+		if (animAletaDer2) {
+			//std::cout << rotAletaDer << std::endl;
+			if (rotAletaDer > 340.0) {
+				rotAletaDer -= 0.5;
+			}
+			else {
+				animAletaDer2 = false;
+				animAletaDer = true;
+			}
+		}
+
+		if (animCola) {
+
+			if (rotCola < 15.0) {
+				rotCola += 0.5;
+			}
+			else {
+				animCola = false;
+				animCola2 = true;
+			}
+		}
+		if (animCola2) {
+			if (rotCola > -15.0) {
+				rotCola -= 0.5;
+			}
+			else {
+				animCola2 = false;
+				animCola = true;
 			}
 		}
 	}

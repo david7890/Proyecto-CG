@@ -12,8 +12,8 @@ newmtl 07___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\Model_3ds\lav2.jpg
-	map_Kd D:\Model_3ds\lav2.jpg
+	map_Ka lav2.jpg
+	map_Kd lav2.jpg
 
 newmtl 08___Default
 	Ns 10.0000
@@ -26,8 +26,8 @@ newmtl 08___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\Model_3ds\montainV.jpg
-	map_Kd D:\Model_3ds\montainV.jpg
+	map_Ka montainV.jpg
+	map_Kd montainV.jpg
 
 newmtl 02___Default
 	Ns 10.0000
@@ -40,8 +40,8 @@ newmtl 02___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\Model_3ds\texmoun2.jpg
-	map_Kd D:\Model_3ds\texmoun2.jpg
+	map_Ka texmoun2.jpg
+	map_Kd texmoun2.jpg
 
 newmtl 03___Default
 	Ns 10.0000
@@ -54,8 +54,8 @@ newmtl 03___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\Model_3ds\lav.jpg
-	map_Kd D:\Model_3ds\lav.jpg
+	map_Ka lav.jpg
+	map_Kd lav.jpg
 
 newmtl 01___Default
 	Ns 10.0000
@@ -68,5 +68,5 @@ newmtl 01___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\Model_3ds\texmoun2.jpg
-	map_Kd D:\Model_3ds\texmoun2.jpg
+	map_Ka texmoun2.jpg
+	map_Kd texmoun2.jpg

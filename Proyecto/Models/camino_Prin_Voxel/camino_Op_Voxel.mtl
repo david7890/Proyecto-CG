@@ -12,8 +12,8 @@ newmtl 01___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\Model_3ds\tierra_PlanCam.png
-	map_Kd D:\Model_3ds\tierra_PlanCam.png
+	map_Ka tierra_PlanCam.png
+	map_Kd tierra_PlanCam.png
 
 newmtl 03___Default
 	Ns 10.0000
@@ -26,8 +26,8 @@ newmtl 03___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\Model_3ds\rocas_Cam.jpg
-	map_Kd D:\Model_3ds\rocas_Cam.jpg
+	map_Ka rocas_Cam.jpg
+	map_Kd rocas_Cam.jpg
 
 newmtl 02___Default
 	Ns 10.0000
@@ -40,5 +40,5 @@ newmtl 02___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka D:\Model_3ds\camino_tierra.png
-	map_Kd D:\Model_3ds\camino_tierra.png
+	map_Ka camino_tierra.png
+	map_Kd camino_tierra.png
