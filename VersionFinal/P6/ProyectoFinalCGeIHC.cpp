@@ -2,7 +2,7 @@
 
 /*
 Semestre 2022-2
-Poryecto Final LCGeHC
+Poryecto Final CGeHC
 */
 //para cargar imagen
 #define STB_IMAGE_IMPLEMENTATION
@@ -45,6 +45,7 @@ void animClock();
 void caminaPedro();
 void animPedro();
 void animDino();
+void vueloPtero();
 
 ////variables para animación
 float movCoche;
@@ -133,8 +134,28 @@ bool animaAleta = true;
 bool animaAleta2 = false;
 bool animAletaDer = true;
 bool animAletaDer2 = false;
+//ptero
+
+float rotAlaPtero = 0.0;
+float rotAlaPteroIzq = 0.0;
+float rotAlaPteroDerY = 0.0;
+float rotAlaPteroIzqY = 0.0;
+float rotPtero = 0.0;
+bool animVuela = false;
+bool animVuela2 = false;
+bool animVuela3 = false;
+bool animVuela4 = false;
+bool animAlasPtero = true;
+bool animAlasPtero2 = false;
+float pospteroZ = 0.0;
+float pospteroY = 0.0;
+float radioP = 38;
+float ivel = 0.5;
+float theta = 90.0f;
+
 
 glm::vec3 posIniCar(14.0, -2.0, 48);
+glm::vec3 posIniPtero(-0.7f, 6.5f, 73.2f);
 Window mainWindow;
 std::vector<Mesh*> meshList;
 std::vector<Shader> shaderList;
@@ -212,7 +233,11 @@ Model PataTrasDer;
 Model PataTrasIzq;
 Model sea;
 
-//materiales
+//PteroVersionD
+Model ptero;
+Model pteroder;
+Model pteroIzq;
+//Materiales
 Material Material_brillante;
 Material Material_opaco;
 
@@ -377,7 +402,7 @@ int main()
 	rueda_VM = Model();
 	rueda_VM.LoadModel("Models/rueda Carrito.obj");
 
-	//Carrito
+	//Troncomovil
 	troncomovil = Model();
 	troncomovil.LoadModel("Models/carro2.obj");
 	//Camino Principal
@@ -405,8 +430,15 @@ int main()
 	alaIzq_VM = Model();
 	alaIzq_VM.LoadModel("Models/alaIzq_VM.obj");
 
-	//Brachiosaurus
+	//PterodactiloVersionD
+	ptero = Model();
+	ptero.LoadModel("Models/ptero/ptero.obj");
+	pteroder = Model();
+	pteroder.LoadModel("Models/ptero/pteroder.obj");
+	pteroIzq = Model();
+	pteroIzq.LoadModel("Models/ptero/pteroIzq.obj");
 
+	//Brachiosaurus
 	Brachiosaurus_M = Model();
 	Brachiosaurus_M.LoadModel("Models/cuelloCuerpo_VM.obj");
 	Bcuello_M = Model();
@@ -492,12 +524,6 @@ int main()
 	skyboxFaces.push_back("Textures/Skybox/pzNi.png");
 	skyboxFaces.push_back("Textures/Skybox/nzNi.png");
 
-	/*	skyboxFaces.push_back("Textures/Skybox/pxNi.png");//
-			skyboxFaces.push_back("Textures/Skybox/nxNi.png");//
-			skyboxFaces.push_back("Textures/Skybox/nyNi.png");//
-			skyboxFaces.push_back("Textures/Skybox/pyNi.png");//
-			skyboxFaces.push_back("Textures/Skybox/pzNi.png");
-			skyboxFaces.push_back("Textures/Skybox/nzNi.png");*/
 	Material_brillante = Material(4.0f, 256);
 	Material_opaco = Material(0.3f, 4);
 	skybox = Skybox(skyboxFaces);
@@ -515,7 +541,7 @@ int main()
 	spotLightCount = 0;
 
 
-	///// Variables para PAblo
+	///// Variables para Pablo
 	bandera = 0;
 	//Brazos y piernas 
 	float derecha = 0.0f;
@@ -584,6 +610,7 @@ int main()
 		caminaPedro();
 		animPedro();
 		animDino();
+		vueloPtero();
 		//Variables Para controlar las luces
 		contador = mainWindow.apagar();
 		contador2 = mainWindow.apagarLuces();
@@ -615,11 +642,7 @@ int main()
 			tiempoDN, 0.3f,
 			0.0f, 0.0f, -1.0f);
 
-		//////Cambio del Skybox
-
-	
-
-		//Proceso de Encendiido y apagado de Luces
+	//Proceso de Encendiido y apagado de Luces
 		if (banderaDN == 1) {
 			if (contador == 0){
 				//Linterna Apagada
@@ -741,7 +764,6 @@ int main()
 			0.0f, -1.0f, 0.0f,
 			0.3f, 0.2f, 0.1f,
 			60.0f);
-		
 		//Luz de la lampara 2
 		spotLights[SpotL2] = SpotLight(0.7f, 0.0f, 0.0f,
 			6.0f, 3.0f,
@@ -778,8 +800,6 @@ int main()
 		
 		pteroInit += 0.001f;
 
-		//brancInit += 0.001f;
-	//	contador += 0.1f;
 		///////Animacion de Carrito 
 		if (direccion == 0) {
 			if (movCocheI > -6.7f) {
@@ -1404,8 +1424,6 @@ int main()
 
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(43.0f, -1.2f, 46.0));
-		
-		
 		model = glm::translate(model, glm::vec3(movCoche, 0.0f, movCocheI));
 		model = glm::rotate(model, rotCoche, glm::vec3(0.0f, 1.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(0.3f, 0.3f, 0.3f));
@@ -1413,7 +1431,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		carritoPablo_VM.RenderModel();
 		
-		//printf("Valor en X: %f, Valor en Y:%f, Valor en Z: %f\n", mainWindow.getmuevex(), mainWindow.getmuevey(),mainWindow.getmuevez());
+		printf("Valor en X: %f, Valor en Y:%f, Valor en Z: %f\n", mainWindow.getmuevex(), mainWindow.getmuevey(),mainWindow.getmuevez());
 		//printf("movCoche: %f, movCocheI: %f, valor de rotacion: %f \n",movCoche, movCocheI, rotCoche);
 		//printf("Rotacion de llanta:%f\n",rotllanta);
 
@@ -1486,14 +1504,15 @@ int main()
 		TreeT_M.RenderModel();
 
 		model = modelTree;
-		model = glm::translate(model, glm::vec3(-25.4f, -3.2f, 0.0f));
+		model = glm::translate(model, glm::vec3(-25.1f, -3.2f, 8.6f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		TreeT_M.RenderModel();
 		
 		model = modelTree;
-		model = glm::translate(model, glm::vec3(-4.9f, -3.2f, 22.5f));
+		model = glm::translate(model, glm::vec3(-3.0f, -3.2f, 23.1f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		TreeT_M.RenderModel();
+
 		///Casita Final
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(25.0f, -1.6, 5));
@@ -1505,6 +1524,7 @@ int main()
 		model = glm::scale(model, glm::vec3(1, 1, 1));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		lampCasa.RenderModel();
+
 		//modelo reloj cucu
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(25.0f, -1.6, 5));
@@ -1721,7 +1741,8 @@ int main()
 
 		//pedro
 		model = glm::mat4(1.0);
-		model = glm::translate(model, glm::vec3(-15.0f, -1.77f, 43.6f));
+		model = glm::translate(model, glm::vec3(-21.9f, -1.77f, 43.6f));
+		model = glm::rotate(model, 180*toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(0.22f, 0.22f, 0.22f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Pedro.RenderModel();
@@ -1771,7 +1792,6 @@ int main()
 		model = glm::rotate(model,rotPteroZ, glm::vec3(0.0f, 0.0f, 1.0f));
 		model = glm::rotate(model, rotPteroY, glm::vec3(0.0f, 1.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
-		//printf("X:%f, Y:%f, Z:%f, rotZ:%f, rotY:%f, AlDer:%f, AlIzq:%f\n", movPterX, movPterY, movPterZ, rotPteroZ, rotPteroY,alaDerecha, alaIzquierda);
 		modelPtero = model;
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		ptero_VM.RenderModel();
@@ -1796,7 +1816,6 @@ int main()
 
 		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.1f, 0.0f));
 		model = glm::scale(model, glm::vec3(2.3f, 2.3f, 2.3f));
-		//printf("rotC:%f, rotM:%f, PosC:%i\n", rotCuello, rotMandi, posCue);
 		modelBrach1 = model;
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Brachiosaurus_M.RenderModel();
@@ -1839,6 +1858,34 @@ int main()
 		model = glm::rotate(model, rotBmandi, glm::vec3(1.0f, 0.0f, 0.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Bquij_M.RenderModel();
+
+
+		////////////////////
+		model = glm::mat4(1.0);
+		model = glm::translate(model, posIniPtero + glm::vec3(0.0, pospteroY, pospteroZ));
+		//model = glm::translate(model, glm::vec3(mainWindow.getmuevex(),mainWindow.getmuevey(),mainWindow.getmuevez()));
+		model = glm::rotate(model, glm::radians(rotPtero), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		ptero.RenderModel();
+		//alas pterodactyl
+		model = glm::mat4(1.0);
+		model = glm::translate(model, posIniPtero + glm::vec3(0.0, pospteroY, pospteroZ));
+		model = glm::translate(model, glm::vec3(0.5, 0.14, -0.5));
+		model = glm::rotate(model, glm::radians(rotAlaPtero), glm::vec3(0.0f, 0.0f, 1.0f));
+		model = glm::rotate(model, glm::radians(rotAlaPteroDerY), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		pteroder.RenderModel();
+
+		model = glm::mat4(1.0);
+		model = glm::translate(model, posIniPtero + glm::vec3(0.0, pospteroY, pospteroZ));
+		model = glm::translate(model, glm::vec3(-0.626, 0.18, -0.7750));
+		model = glm::rotate(model, glm::radians(rotAlaPteroIzq), glm::vec3(0.0f, 0.0f, 1.0f));
+		model = glm::rotate(model, glm::radians(rotAlaPteroIzqY), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		pteroIzq.RenderModel();
 
 		//////////////////////////Termina los modelos////////////////////////////////
 		glUseProgram(0);
@@ -2085,6 +2132,60 @@ void animPedro() {
 		}
 	}
 }
+void vueloPtero() {
+
+	if (animVuela) {
+		pospteroZ = radioP * cos(theta - (ivel * glfwGetTime()));
+		pospteroY = radioP * sin(theta - (ivel * glfwGetTime()));
+		float posY = posIniPtero.y + pospteroY;
+		float posZ = posIniPtero.z + pospteroZ;
+		std::cout << "pos z: " << posZ << std::endl;
+		std::cout << "pos y: " << posY << std::endl;
+
+		if (posY < 1 && posZ > 27.9) {
+			animVuela = false;
+			animVuela2 = true;
+		}
+
+	}
+
+	if (animVuela2) {
+		//rotar cuerpo y alas
+		rotPtero += 0.3;
+		rotAlaPteroDerY += 0.3;
+		rotAlaPteroIzqY += 0.3;
+		if (rotPtero > 180) {
+			animVuela2 = false;
+			animVuela3 = false;
+		}
+	}
+
+	if (animVuela3) {
+		theta = -90.0f;
+		pospteroZ = radioP * cos(theta - (ivel * glfwGetTime()));
+		pospteroY = radioP * sin(theta - (ivel * glfwGetTime()));
+
+	}
+
+	if (animAlasPtero) {
+		rotAlaPtero += 0.1;
+		rotAlaPteroIzq -= 0.1;
+		if (rotAlaPtero > 40) {
+			animAlasPtero = false;
+			animAlasPtero2 = true;
+		}
+	}
+
+	if (animAlasPtero2) {
+		rotAlaPtero -= 0.1;
+		rotAlaPteroIzq += 0.1;
+		if (rotAlaPtero < -30) {
+			animAlasPtero = true;
+			animAlasPtero2 = false;
+		}
+	}
+}
+
 void animDino() {
 	float speed = 0.5;
 	float phi = phiDino + (2 * speed) * glfwGetTime();

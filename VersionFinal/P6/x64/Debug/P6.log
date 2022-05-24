@@ -1,0 +1,29 @@
+﻿  Camera.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Camera.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  DirectionalLight.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Light.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Light.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Light.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Material.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Material.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Mesh_tn.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Mesh.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Model.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Model.h(4,9): fatal error C1083: No se puede abrir el archivo incluir: 'assimp/Importer.hpp': No such file or directory
+  ProyectoFinalCGeIHC.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(16,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  PointLight.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Light.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Shader_light.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Shader_light.h(7,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Skybox.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Skybox.h(6,9): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Sphere.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\definition.h(11,10): fatal error C1083: No se puede abrir el archivo incluir: 'glm.hpp': No such file or directory
+  SpotLight.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Light.h(3,10): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Texture.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Texture.h(2,9): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Window.cpp
+D:\ProTe\Proyecto-CG-main\VersionFinal\P6\Window.h(3,9): fatal error C1083: No se puede abrir el archivo incluir: 'glew.h': No such file or directory
+  Generando código...

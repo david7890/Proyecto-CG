@@ -1,109 +1,175 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (P6.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Camera.cpp
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Camera.cpp(21,19): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  DirectionalLight.cpp
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\DirectionalLight.cpp(18,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\DirectionalLight.cpp(19,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\DirectionalLight.cpp(21,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\DirectionalLight.cpp(22,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  Light.cpp
+  Material.cpp
+  Mesh_tn.cpp
+  Model.cpp
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Model.cpp(16,10): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'const std::string'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Model.cpp(16,80): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Model.cpp(16,80): message : los marcadores de posición y sus parámetros esperan 1 argumentos variádicos, pero se proporcionaron 2
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Model.cpp(51,7): warning C4804: '<': uso no seguro del tipo 'bool' en la operación
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Model.cpp(51,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Model.cpp(138,14): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'std::string'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Model.cpp(147,14): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'std::string'
   ProyectoFinalCGeIHC.cpp
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\Window.h(15,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\Window.h(16,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\Window.h(22,28): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\Window.h(23,33): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\Window.h(24,27): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(89,22): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(92,22): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(588,31): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(589,37): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(590,29): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(599,18): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(609,18): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(612,44): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(772,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(774,43): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(787,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(788,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(789,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(791,34): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(796,29): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(797,34): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(804,27): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(805,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(813,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(814,29): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(815,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(822,30): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(823,34): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(831,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(839,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(840,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(841,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(848,29): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(850,52): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(860,27): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(861,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(870,29): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(872,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(881,30): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(883,52): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(893,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(928,18): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(932,34): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(933,36): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(943,34): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(945,35): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(948,36): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(957,34): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(973,35): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(976,36): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1146,22): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1150,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1151,37): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1157,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1163,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1170,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1171,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1181,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1182,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1192,22): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1196,32): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1197,37): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1204,32): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1211,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1212,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1222,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1223,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1233,52): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1234,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1866,17): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1874,18): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1882,17): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1890,18): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1897,17): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1904,18): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1911,17): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1923,18): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1924,18): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1927,18): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1937,19): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1949,23): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1950,23): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1959,23): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1960,23): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1978,18): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1979,21): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1987,18): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1988,21): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1997,20): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(1998,19): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2027,19): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2037,20): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2048,17): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2058,18): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2069,20): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2079,21): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2090,12): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2091,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2092,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2098,20): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2107,20): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2118,23): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2128,23): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2139,19): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\P6\ProyectoFinalCGeIHC.cpp(2148,19): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(15,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(16,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(22,28): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(23,33): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(24,27): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(90,22): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(93,22): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(615,31): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(616,37): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(617,29): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(626,18): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(636,18): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(639,44): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(794,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(796,43): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(807,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(808,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(809,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(811,34): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(816,29): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(817,34): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(824,27): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(825,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(833,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(834,29): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(835,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(842,30): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(843,34): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(851,28): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(859,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(860,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(861,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(868,29): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(870,52): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(880,27): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(881,51): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(890,29): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(892,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(901,30): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(903,52): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(913,28): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(948,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(952,34): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(953,36): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(963,34): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(965,35): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(968,36): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(977,34): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(993,35): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(996,36): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1166,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1170,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1171,37): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1177,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1183,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1190,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1191,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1201,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1202,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1212,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1216,32): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1217,37): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1224,32): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1231,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1232,33): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1242,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1243,33): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1253,52): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1254,32): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1913,17): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1921,18): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1929,17): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1937,18): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1944,17): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1951,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1958,17): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1970,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1971,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1974,18): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1984,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1996,23): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(1997,23): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2006,23): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2007,23): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2025,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2026,21): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2034,18): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2035,21): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2044,20): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2045,19): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2074,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2084,20): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2138,22): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2139,22): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2154,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2155,25): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2156,25): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2165,22): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2166,22): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2171,21): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2172,24): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2180,21): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2181,24): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2191,12): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2192,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\ProyectoFinalCGeIHC.cpp(2193,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  PointLight.cpp
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\PointLight.cpp(28,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\PointLight.cpp(29,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\PointLight.cpp(30,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\PointLight.cpp(32,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\PointLight.cpp(33,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\PointLight.cpp(34,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\PointLight.cpp(35,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  Shader_light.cpp
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(207,75): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(207,26): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(206,91): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(206,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(220,98): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(220,62): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(220,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(219,70): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(219,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(218,88): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Shader_light.cpp(218,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+  Skybox.cpp
+  Sphere.cpp
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Sphere.cpp(39,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Sphere.cpp(43,16): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  SpotLight.cpp
+  Texture.cpp
+  Window.cpp
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(15,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(16,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(22,28): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(23,33): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.h(24,27): warning C4244: 'return': conversión de 'unsigned int' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(128,28): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(132,28): warning C4305: '-=': truncamiento de 'double' a 'GLfloat'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(136,27): warning C4305: '-=': truncamiento de 'double' a 'GLfloat'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(140,27): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(144,27): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(148,27): warning C4305: '-=': truncamiento de 'double' a 'GLfloat'
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(223,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(224,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(228,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(229,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(231,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(232,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Generando código...
+C:\Users\divad\source\repos\Proyecto\VersionFinal\P6\Window.cpp(80): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
+  LINK : no se encontró C:\Users\divad\source\repos\Proyecto\VersionFinal\Debug\ProyectoFinalCGeIHC.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
 LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
-  P6.vcxproj -> C:\Users\divad\OneDrive\Documentos\GitHub\Proyecto-CG-VersionesSME\Debug\ProyectoFinalCGeIHC.exe
+  P6.vcxproj -> C:\Users\divad\source\repos\Proyecto\VersionFinal\Debug\ProyectoFinalCGeIHC.exe
