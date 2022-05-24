@@ -1431,7 +1431,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		carritoPablo_VM.RenderModel();
 		
-		printf("Valor en X: %f, Valor en Y:%f, Valor en Z: %f\n", mainWindow.getmuevex(), mainWindow.getmuevey(),mainWindow.getmuevez());
+		//printf("Valor en X: %f, Valor en Y:%f, Valor en Z: %f\n", mainWindow.getmuevex(), mainWindow.getmuevey(),mainWindow.getmuevez());
 		//printf("movCoche: %f, movCocheI: %f, valor de rotacion: %f \n",movCoche, movCocheI, rotCoche);
 		//printf("Rotacion de llanta:%f\n",rotllanta);
 
